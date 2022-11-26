@@ -1,0 +1,77 @@
+/*колір основного тексту #757575*/
+/*додатковий колір тексту #212121*/
+/*акцент #2196F3*/
+/*верхня заливка #2F303A*/
+/*білий */
+/*background #2F303A*/
+/*secondary background #F5F4FA*/
+
+/**/
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white: #FFFFFF;
+    --background: #2F303A;
+}
+
+/*body*/
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+h1,h2,h3,h4,h5,h6 {
+    color: var(--title-text-color);
+}
+.list {
+    list-style: none;
+}
+
+/*header*/
+header > .logo {
+    color: var(--title-text-color);
+}
+span {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+   color: var(--title-text-color); 
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+.contacts .link:hover, 
+.contacts .link:focus{
+    color: var(--accent-color);
+}
+
+/*main*/
+.hero-section {
+    background-color: var(--background);
+}
+.hero-title {
+    color: var(--white);
+}
+
+/*footer*/
+.footer {
+    background-color: var(--background);
+}
+
+.location {
+    color: var(--white);
+}
+footer > .logo {
+    color: #FFFFFF;
+}
+span {
+    color: var(--accent-color);
+}
+
+/*portfolio*/
