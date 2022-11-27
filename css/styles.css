@@ -106,7 +106,6 @@ body {
 
 /*features section*/
 .feature-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -115,7 +114,6 @@ body {
     color: var(--title-text-color);
 }
 .description {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -123,7 +121,6 @@ body {
 
 /*work section*/
 .work-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -136,9 +133,7 @@ body {
 .team-section {
     background-color: #F5F4FA;
 }
-.team-title{
-    font-family: 'Roboto';
-    font-style: normal;
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -155,7 +150,6 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -164,7 +158,6 @@ body {
     color: var(--title-text-color);
 }
 .team-position {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -177,7 +170,6 @@ body {
 }
 .logo-footer {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -188,7 +180,6 @@ body {
 /*location*/
 .location {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
