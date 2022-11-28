@@ -1,10 +1,11 @@
 /*колір основного тексту #757575*/
 /*додатковий колір тексту #212121*/
 /*акцент #2196F3*/
-/*верхня заливка #2F303A*/
-/*білий */
+/*білий #FFFFFF*/
 /*background #2F303A*/
-/*secondary background #F5F4FA*/
+/*secondary-background #F5F4FA*/
+/*portfolio-project-border #EEEEEE*/
+/*hero-button-fokus #188CE8*/
 
 /*root*/
 :root {
@@ -13,11 +14,14 @@
     --accent-color: #2196F3;
     --white: #FFFFFF;
     --background: #2F303A;
+    --secondary-background: #F5F4FA;
+    --portfolio-project-border: #EEEEEE;
+    --hero-button-fokus: #188CE8;
 }
 
 /*body*/
 body {
-    background-color: #FFFFFF;
+    background-color: var(--white);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
 }
@@ -34,7 +38,6 @@ body {
 .logo {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -79,8 +82,6 @@ body {
     background-color: var(--background);
 }
 .hero-title {
-    font-style: normal;
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -97,16 +98,15 @@ body {
     font-size: 16px;
     line-height: 1.875; 
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .button:hover,
 .button:focus {
-    background-color: #188CE8;
+    background-color: var(--hero-button-fokus);
 }
 
 /*features section*/
 .feature-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -121,7 +121,6 @@ body {
 
 /*work section*/
 .work-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -131,10 +130,9 @@ body {
 
 /*team section*/
 .team-section {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background);
 }
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -142,7 +140,7 @@ body {
     color: var(--title-text-color);
 }
 .team-member {
-    background: #FFFFFF;
+    background: var(--white);
 /* material shadow v1 */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
                 0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -170,11 +168,10 @@ body {
 }
 .logo-footer {
     font-family: 'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 /*location*/
@@ -202,9 +199,11 @@ body {
 }
 
 
+/*portfolio-project-border #EEEEEE*/
+
 /*portfolio*/
 .filter-button {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -222,16 +221,15 @@ body {
 }
 
 .portfolio-project {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: var(--white);
+    border: 1px solid var(--portfolio-project-border);
 }
 .name-project {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
-color: var(--title-text-color);
+    color: var(--title-text-color);
 }
 .type-project {
     font-size: 16px;
